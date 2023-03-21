@@ -121,6 +121,30 @@ a:hover {
 }
 
 
+/*   SECTION THREE   */
+
+.sec3 {
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25%;
+
+}
+
+.sec3 p {
+    font-size: 36px;
+    color: #1F2937;
+    text-decoration: light italic;
+}
+
+#lastp {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 
 
 

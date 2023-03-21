@@ -137,7 +137,7 @@ a:hover {
 .sec3 p {
     font-size: 36px;
     color: #1F2937;
-    text-decoration: light italic;
+    font-style: italic;
 }
 
 #lastp {
@@ -146,5 +146,31 @@ a:hover {
 }
 
 
+/*   SECTION FOUR   */
 
+.sec4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 25px 10%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.Signup {
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.action h3, h6 {
+    color: white;
+}
 

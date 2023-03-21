@@ -12,7 +12,7 @@ body {
 .sec1 {
     background-color: #1F2937;
     color: white;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -43,6 +43,7 @@ a{
 .body {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 10px 15%;
     align-items: center;
     height: 100%;
@@ -89,12 +90,14 @@ a:hover {
 
 .sec2 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    height: 350px;
+    min-height: 350px;
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 25%;
     height: 100%;
@@ -125,9 +128,10 @@ a:hover {
 /*   SECTION THREE   */
 
 .sec3 {
-    height: 350px;
+    min-height: 350px;
     background-color: #E5E7EB;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -158,6 +162,7 @@ a:hover {
 
 .box {
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882F6;
     padding: 25px 10%;
     border-radius: 5px;

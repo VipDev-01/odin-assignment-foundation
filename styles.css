@@ -44,9 +44,10 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-grow: 1;
     padding: 10px 15%;
     align-items: center;
-    height: 100%;
+    gap: 20px;
 }
 
 img {
@@ -83,7 +84,6 @@ a:hover {
     background-color: white;
     border-radius: 10%;
     color: black;
-    padding: 15px;
 }
 
 /*   SECTION TWO   */
@@ -100,14 +100,16 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 25%;
-    height: 100%;
     align-items: center;
+    flex-grow: 1;
+    gap: 20px;
 }
 
 .item img {
     width: 130px;
     height: 100px;
     border-radius: 10%;
+    border: 3px solid #3882F6;
 }
 
 .sec2 h2 {
@@ -122,6 +124,7 @@ a:hover {
     width: 130px;
     height: max-content;
     text-align: center;
+    flex-grow: 1;
 }
 
 
@@ -167,7 +170,7 @@ a:hover {
     padding: 25px 10%;
     border-radius: 5px;
     justify-content: space-evenly;
-    gap: 70px;
+    gap: 20px;
 }
 
 .Signup {

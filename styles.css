@@ -34,6 +34,11 @@ body {
     font-weight: bold;
 }
 
+#logo img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
 a{
     text-decoration: none;
     font-size: 18px;
@@ -51,8 +56,9 @@ a{
 }
 
 img {
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: auto;
+    overflow: hidden;
     
 }
 
@@ -99,7 +105,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 25%;
+    padding: 10px 15%;
     align-items: center;
     flex-grow: 1;
     gap: 20px;
@@ -109,7 +115,7 @@ a:hover {
     width: 130px;
     height: 100px;
     border-radius: 10%;
-    border: 3px solid #3882F6;
+    border: 3px solid rgb(119, 3, 3)
 }
 
 .sec2 h2 {
